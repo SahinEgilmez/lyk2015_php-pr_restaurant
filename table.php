@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 $tableId = $_GET['id'];
 
@@ -120,3 +121,12 @@ $orderedItems = array(
 </div>
 </body>
 </html>
+=======
+require "inc/global.php";
+
+require "controller/table.php";
+
+require "view/_header.php";
+require "view/table.php";
+require "view/_footer.php";
+>>>>>>> birkaç değişiklik yapıldı
