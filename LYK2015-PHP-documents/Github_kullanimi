@@ -1,0 +1,27 @@
+sudo apt-get update
+
+sudo apt-get install git-core curl
+
+'''sh --> shell kodu yazarken kullanılmakta
+
+### --> Alt ad olarak kullanılmakta.
+
+*[try.github.io](adres) --> Link ekleme
+
+
+
+GİTHUB KULLANIMI REPOSİTORY EKLEME
+
+git init --> Dosyayı izletmeye başlama
+
+git add -istenilen_dosyalar- aktarılacak dosyaları aktarma
+
+git commit -m "İstediğin açıklamayı yaz.
+
+git remote add origin projenin_repository_linki
+
+git push origin master
+
+git pull --rebase origin master
+
+

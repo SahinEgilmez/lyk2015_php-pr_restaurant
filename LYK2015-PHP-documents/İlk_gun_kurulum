@@ -1,0 +1,43 @@
+PHPStorm kurulumu:
+Öncelikle XAMPP kurulumu ile başlanır.
+XAMPP kurulumu için:
+
+http://www.erbilen.net/975-ubuntu-icin-xampp-kurulumu.html
+
+kaynağından yararlanabilirsiniz.
+
+Kuruluma başlamadan önce sistemde JAVA JDK kurulu olmadığı denetlenir.
+Konsoldan:
+"java -version"
+kodu verildiğinde sürüm gösteriliyorsa yüklüdür, değilse yüklü değildir.
+
+kurulum için sırayla:
+sudo apt-get install openjdk-7-jdk openjdk-7-jre 
+sudo apt-get update
+
+Komutu verilip yüklenir.
+
+Masaüstünde devamlı /opt/lampp/htdocs klasörüne ulaşabilmek için kısayol oluşturulur.
+
+Kısayol oluşturma:
+ln -s /opt/lampp/htdocs /home/KULLANICI_ADINIZ/Masaüstü/local
+
+Masaüstünde yolun gözüküyor olması gerekmektedir.
+
+Lampp'ı başlatabilmek için :
+sudo  /opt/lampp/lampp start
+
+başlatma da problem yaşamadıysanız şöyle yazar:
+natgho@optimist:/opt/lampp$ sudo  /opt/lampp/lampp start
+Starting XAMPP for Linux 5.5.27-0...
+XAMPP: Starting Apache...ok.
+XAMPP: Starting MySQL...ok.
+XAMPP: Starting ProFTPD...ok.
+
+Ardından phpstrom dosyası (dosyayı ekle)nı çalıştırmak için phpstrm/bin dosyasına girilir.
+
+bin içerisindeki phpstrom.sh çalıştırılır (çalıştırma konsoldan o klasöre gidip "sudo ./phpstorm.sh" yazmak yeterli)
+
+Ardından yükleme yapılır...
+Hayırlı olsun PHP kurulmuştur.
+
